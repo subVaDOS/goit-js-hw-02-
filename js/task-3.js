@@ -50,9 +50,9 @@
 // console.log(msg3);
 // console.log(msg4);
 
-const fullName = 'Jacob Mercer';
-console.log(fullName.slice(0, 4)); // 'Jaco'
-console.log(fullName.slice(3, 9)); // 'ob Mer'
-console.log(fullName.slice(0, fullName.length)); // 'Jacob Mercer'
-console.log(fullName.slice(0)); // 'Jacob Mercer'
-console.log(fullName.slice()); // 'Jacob Mercer'
+// const fullName = 'Jacob Mercer';
+// console.log(fullName.slice(0, 4)); // 'Jaco'
+// console.log(fullName.slice(3, 9)); // 'ob Mer'
+// console.log(fullName.slice(0, fullName.length)); // 'Jacob Mercer'
+// console.log(fullName.slice(0)); // 'Jacob Mercer'
+// console.log(fullName.slice()); // 'Jacob Mercer'
