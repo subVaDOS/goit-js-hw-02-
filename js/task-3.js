@@ -56,3 +56,13 @@
 // console.log(fullName.slice(0, fullName.length)); // 'Jacob Mercer'
 // console.log(fullName.slice(0)); // 'Jacob Mercer'
 // console.log(fullName.slice()); // 'Jacob Mercer'
+
+if (daysUntilDeadline === 0) {
+  console.log('Today');
+} else if (daysUntilDeadline === 1) {
+  console.log('Tomorrow');
+} else if (daysUntilDeadline === 0) {
+  console.log('Overmorrow');
+} else {
+  console.log('Date in the future');
+}
