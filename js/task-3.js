@@ -57,12 +57,22 @@
 // console.log(fullName.slice(0)); // 'Jacob Mercer'
 // console.log(fullName.slice()); // 'Jacob Mercer'
 
-if (daysUntilDeadline === 0) {
-  console.log('Today');
-} else if (daysUntilDeadline === 1) {
-  console.log('Tomorrow');
-} else if (daysUntilDeadline === 0) {
-  console.log('Overmorrow');
-} else {
-  console.log('Date in the future');
+// if (daysUntilDeadline === 0) {
+//   console.log('Today');
+// } else if (daysUntilDeadline === 1) {
+//   console.log('Tomorrow');
+// } else if (daysUntilDeadline === 2) {
+//   console.log('Overmorrow');
+// } else {
+//   console.log('Date in the future');
+// }
+
+function createReversedArray(...args) {
+  return args.toReversed();
 }
+
+console.log(createReversedArray(12, 85, 37, 4)); // [4, 37, 85, 12]
+console.log(createReversedArray(164, 48, 291)); // [291, 48, 164]
+console.log(createReversedArray(412, 371, 94, 63, 176)); // [176, 63, 94, 371, 412]
+console.log(createReversedArray()); // []
+console.log(createReversedArray(1)); // [1]
