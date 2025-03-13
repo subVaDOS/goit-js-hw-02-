@@ -35,17 +35,17 @@
 //   return result;
 // }
 
-function timeToStr(hours, minutes) {
-  const result = minutes === 0 ? `${hours} г.` : `${hours} г. ${minutes} хв.`;
-  return result;
-}
+// function timeToStr(hours, minutes) {
+//   const result = minutes === 0 ? `${hours} г.` : `${hours} г. ${minutes} хв.`;
+//   return result;
+// }
 
-const msg1 = timeToStr(14, 00);
-const msg2 = timeToStr(12, 12);
-const msg3 = timeToStr(17, 11);
-const msg4 = timeToStr(13, 15);
+// const msg1 = timeToStr(14, 00);
+// const msg2 = timeToStr(12, 12);
+// const msg3 = timeToStr(17, 11);
+// const msg4 = timeToStr(13, 15);
 
-console.log(msg1);
-console.log(msg2);
-console.log(msg3);
-console.log(msg4);
+// console.log(msg1);
+// console.log(msg2);
+// console.log(msg3);
+// console.log(msg4);
